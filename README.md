@@ -2,9 +2,9 @@
 
 ![into](https://theinnerdetail.com/wp-content/uploads/2021/07/aisong5.jpg)
 
+Head to https://www.kaggle.com/code/rupakroy/music-genetration-tested for the implementation
 
 Few notes from the notebook:
-
 Now retrieve the components of the MIDI files, it can be either chords or notes.
 
 MIDI file format in brief:
@@ -21,7 +21,6 @@ For more details: https://docs.fileformat.com/audio/mid/
 
 The music21 stream that was created in the above cell contains both, chords and notes, we will extract them in the form of notes and obtain a series of notes in the musical composition.
 
-#-----------------------------------------------------
 
 The main take away is the music21 package that helps us to convert the mid format music files to our regular numerical values and then reframe it into LSTM input shape.
 This is a open source project any collab for further development is most welcome.
